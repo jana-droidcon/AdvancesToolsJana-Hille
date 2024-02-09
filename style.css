@@ -113,7 +113,6 @@ p {
   .container .row {
     display: block;
     justify-content: center;
-    width: 200%;
   }
   .mt-5 {
     margin-bottom: 30px;
@@ -122,5 +121,12 @@ p {
 
   img {
     margin-bottom: 20px;
+    position: relative;
+  }
+  .col-sm-4 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 200%;
   }
 }
